@@ -30,7 +30,7 @@ const timeElement = document.getElementById('time');
                 updateTimer();
                 if (minutes === 5) {
                     clearInterval(interval);
-                    showMessage('Vous avez fait une giga pause de 5 minutes. Félicitations, vous êtes l\'arbre qui ne ploie pas devant la tâche à abattre ✅!');
+                    showMessage('Vous avez fait une giga pause de 5 minutes. Félicitations, vous êtes le roseau qui ne se brise pas ✅!');
                     repeatBtn.disabled = false;
                 }
             }, 1000);
